@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'SourceSerif';
+  src:url("../fonts/SourceSerif4-VariableFont_opsz,wght.ttf");
+  font-weight: 300 900;
+}
+
+@font-face {
+  font-family: 'SourceSans';
+  src:url("../fonts/SourceSans3-VariableFont_wght.ttf");
+  font-weight: 300 900;
+}
+
+.title {
+  font-family: "SourceSerif";
+  font-size: 1.2em;
+  color: black;
+  position:absolute;
+  text-align: center;
+  top: 500px;
+  left: 140px;
+  z-index: 1;
+  }
+
+.author {
+  font-family : SourceSans;
+  font-size : 39px;
+  letter-spacing : 3.9px;
+  color : #black;
+  position:absolute;
+  text-align: center;
+  top: 513px;
+  right: 100px;
+  z-index: 2;
+
+}
+
+
+.tag
+{
+  font-family : SourceSans;
+  font-size : 18px;
+  letter-spacing : 1.8px;
+  color : #FFFFFF;
+  position:absolute;
+  text-align: center;
+  top: 240px;
+  left: 130px;
+  z-index: 3;
+  transform: rotate(20deg);
+}
+
+.frame
+{
+  border-style : Solid;
+  border-color : black;
+  border-width : 2px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  width : 800px;
+  height : 1200px;
+  overflow:hidden;
+}
+
+.title
+{
+  font-family : ;
+  font-size : 52px;
+  letter-spacing : 0.68px;
+  color : #000000;
+}
+
+
+
+.big_black
+{
+  background : #000000;
+  position : absolute ;
+  left : -190px;
+  top : -8px;
+  width : 1273px;
+  height : 1273px;
+  transform: rotate(-280deg);
+  animation:big_blackani 3s infinite linear ;
+}
+
+
+@keyframes big_blackani {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.big_white
+{
+  background : #FFFFFF;
+  position : absolute ;
+  left : -10px;
+  top : 377px;
+  width : 797px;
+  height : 797px;
+  transform: rotate(-70deg);
+  animation:big_whiteani 3.1s infinite linear ;
+}
+
+@keyframes big_whiteani {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.small_black
+{
+  background : #000000;
+  position : absolute ;
+  left : 166px;
+  top : 661px;
+  width : 528px;
+  height : 528px;
+  transform: rotate(310deg);
+  animation:small_blackani 3.2s infinite linear ;
+}
+
+@keyframes small_blackani {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+
+.small_white
+{
+  background : #FFFFFF;
+  position : absolute ;
+  left : 331px;
+  top : 847px;
+  width : 277px;
+  height : 277px;
+  transform: rotate(-28deg);
+  animation:small_whiteani 3.3s infinite linear;
+
+}
+
+@keyframes small_whiteani {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
